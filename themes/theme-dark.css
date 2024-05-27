@@ -1,0 +1,42 @@
+/* Theme: Dark */
+
+/* Body Styles */
+body {
+  background-color: #282828; /* Dark gray background */
+  color: #ffffff; /* White text */
+}
+
+/* Wrapper Styles */
+.wrapper {
+  background-color: #212121; 
+  box-shadow: 0 10px 15px rgba(17, 16, 16, 0.774); 
+  border: none;
+}
+
+/* Text Typing Area Styles */
+.typing-text p span.correct {
+  color: #4caf50; /* Green for correct text */
+}
+
+.typing-text p span.incorrect {
+  color: #f44336; /* Red for incorrect text */
+}
+
+/* Button Styles */
+.content button {
+  background-color: #2a2a2b; /* Dark blue button background */
+  color: #ffffff; /* White button text */
+  transition: background-color 0.3s ease
+}
+.content button:hover {
+  background-color: #4a4a4b; /* Lighter blue on hover */
+}
+
+.content button:active {
+  transform: scale(0.97);
+}
+
+/* Result Details Styles */
+.result-details li span {
+  color: #cccccc; /* Light gray text */
+}
